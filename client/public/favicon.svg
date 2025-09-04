@@ -1,0 +1,25 @@
+<svg id="omniAI-logo-mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="OmniAI logo mark">
+  <defs>
+    <linearGradient id="omni-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+    <filter id="omni-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="1.2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- container -->
+  <rect x="4" y="4" width="56" height="56" rx="14" fill="#0B1020"/>
+  <rect x="4" y="4" width="56" height="56" rx="14" fill="url(#omni-grad)" opacity="0.18"/>
+
+  <!-- stylized O + A (Omni + AI) -->
+  <circle cx="32" cy="32" r="12" stroke="url(#omni-grad)" stroke-width="4" fill="none"/>
+  <path d="M24 44 L32 24 L40 44 H36 L32 36 L28 44 H24 Z" fill="url(#omni-grad)"/>
+
+  <!-- spark for AI / intelligence -->
+  <circle cx="44.5" cy="17.5" r="3.2" fill="white" opacity="0.95" filter="url(#omni-glow)"/>
+  <circle cx="49.5" cy="22.5" r="1.4" fill="white" opacity="0.7"/>
+  <circle cx="39.5" cy="14.5" r="1.1" fill="white" opacity="0.55"/>
+</svg>
